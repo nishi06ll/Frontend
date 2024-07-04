@@ -72,7 +72,7 @@ function Listposts() {
             color: #6c757d;
           }
           .card-title.name {
-            color: skyblue; /* Updated movie name color */
+            color: skyblue; 
           }
           .list h1 {
             font-size: 2.5rem;
