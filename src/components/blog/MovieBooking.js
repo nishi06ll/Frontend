@@ -112,7 +112,7 @@ const TicketBooking = () => {
               style={{
                 ...styles.ticket,
                 backgroundColor: selectedTickets.includes(option)
-                  ? "#87CEEB" // Sky blue when selected
+                  ? "#87CEEB" 
                   : "#f0f0f0",
                 color: selectedTickets.includes(option) ? "#ffffff" : "#000000",
               }}
@@ -126,7 +126,7 @@ const TicketBooking = () => {
             onClick={handleBookTicket}
             style={{
               ...styles.payButton,
-              backgroundColor: isBooking ? "#ccc" : "#87CEEB", // Sky blue color
+              backgroundColor: isBooking ? "#ccc" : "#87CEEB", 
               cursor: isBooking ? "not-allowed" : "pointer",
             }}
             disabled={isBooking}
@@ -184,7 +184,7 @@ const styles = {
     padding: "10px 20px",
     border: "none",
     borderRadius: 5,
-    backgroundColor: "#87CEEB", // Sky blue color
+    backgroundColor: "#87CEEB",
     color: "black",
     fontSize: 16,
     cursor: "pointer",
