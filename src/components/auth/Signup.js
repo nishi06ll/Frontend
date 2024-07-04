@@ -51,7 +51,7 @@ function Register() {
               value={name}
               onChange={(event) => {
                 setName(event.target.value);
-                clearErrorMessage(); // Clear error message on input change
+                clearErrorMessage();
               }}
             />
           </div>
@@ -63,7 +63,7 @@ function Register() {
               value={email}
               onChange={(event) => {
                 setEmail(event.target.value);
-                clearErrorMessage(); // Clear error message on input change
+                clearErrorMessage(); 
               }}
             />
           </div>
@@ -75,7 +75,7 @@ function Register() {
               value={password}
               onChange={(event) => {
                 setPassword(event.target.value);
-                clearErrorMessage(); // Clear error message on input change
+                clearErrorMessage(); 
               }}
             />
           </div>
@@ -87,7 +87,7 @@ function Register() {
               value={passwordConf}
               onChange={(event) => {
                 setPasswordConf(event.target.value);
-                clearErrorMessage(); // Clear error message on input change
+                clearErrorMessage();
               }}
             />
           </div>
