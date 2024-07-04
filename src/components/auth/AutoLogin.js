@@ -7,7 +7,7 @@ function AutoLogin(props) {
 
   useEffect(() => {
     dispatch(setUserFromLocalStorage());
-  }, [dispatch]); // Include dispatch in the dependency array
+  }, [dispatch]); 
 
   return props.children;
 }
